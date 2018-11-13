@@ -13,4 +13,4 @@
 * Configuration
 
 ## Lien en PROD :
-https://css-advanced.herokuapp.com/
+https://git.heroku.com/heroku-scss.git
