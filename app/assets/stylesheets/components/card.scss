@@ -6,7 +6,8 @@
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    background: rgba(81, 158, 138, 0.5);
+    background: rgba(179, 179, 179, 0.94);
+    /*background: rgba(81, 158, 138, 0.5);*/
     /*background-image: linear-gradient(to bottom right, #563635, #5b6057);*/
 }
 
@@ -20,15 +21,14 @@
 }
 
 .card-button {
-    border: none;
-    padding: 5px 20px;
     width: 50%;
     margin: auto;
-    font-size: 16px;
+    font-size: 120%;
     text-align: center;
+    border: 0;
+    padding: 0;
     border-radius: 8px;
-    background-color: #519e8a;
-    text-decoration: none;
+    background-color: #C1C1C1;
 }
 
 .card-button:hover {

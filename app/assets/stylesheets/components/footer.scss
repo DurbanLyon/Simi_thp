@@ -1,8 +1,9 @@
 .footer {
-  background-color: #519e8a;
+  background-image:linear-gradient(to bottom, black, white);
   border-top: 1px solid black;
   padding: 0px;
   display: flex;
+  height: 60px;
   justify-content: space-between;
 }
 
