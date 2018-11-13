@@ -1,0 +1,40 @@
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border: 1px solid #5b6057;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(81, 158, 138, 0.5);
+    /*background-image: linear-gradient(to bottom right, #563635, #5b6057);*/
+}
+
+.card-avatar {
+  border-radius: 50%;
+  text-align: center;
+}
+
+.card-name {
+  text-align: center;
+}
+
+.card-button {
+    border: none;
+    padding: 5px 20px;
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #519e8a;
+    text-decoration: none;
+}
+
+.card-button:hover {
+    background-color: #5b6057;
+}
+
+.card-button:active {
+    background-color: #5b6057;
+}

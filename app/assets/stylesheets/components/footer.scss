@@ -1,0 +1,13 @@
+.footer {
+  background-color: #519e8a;
+  border-top: 1px solid black;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left, .footer-center, .footer-right {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+}

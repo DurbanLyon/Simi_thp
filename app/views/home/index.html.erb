@@ -1,0 +1,77 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <!-- CONTENEUR -->
+    <div class="container">
+
+      <div class="tab">
+        <button class="tablinks" onclick="openUser(event, 'frog')">Dante</button>
+        <button class="tablinks" onclick="openUser(event, 'butterfly')">Batman</button>
+        <button class="tablinks" onclick="openUser(event, 'cow')">Harley Queen</button>
+      </div>
+
+      <div id="frog" class="tabcontent">
+
+        <div class="card-avatar">
+          <%= image_tag("dante.jpeg", size: "450x450", :alt => "rss feed", class: "card-avatar") %>
+        </div>
+
+        <div class="card-name">
+          <h3>Devil May Cry character</h3>
+          <a>Dante (Japanese: ダンテ) is a fictional character and the central protagonist of the Devil May Cry franchise, created and published by Capcom.[3] In the first four games Dante is a mercenary, private investigator and demon-hunting vigilante dedicated to exterminating them and other supernatural foes, a mission he follows in pursuit of those who killed his mother and corrupted his brother. He is the son of Sparda, a powerful demon; as a result of his heritage, he has superhuman powers which he uses with a variety of weapons to reach his goals. The character also appears in several Devil May Cry novels and manga volumes, and is featured in the 2007 anime television series. In a Ninja Theory reboot of the series, a young-adult Dante fights demons in an alternative universe. The character has also made multiple guest appearances in crossover games, and has been voiced by several different actors.</a>
+        </div>
+
+        <div class="card-button">
+          <button class="btn-blue">FollowMe</button>
+        </div>
+
+      </div>
+
+      <div id="butterfly" class="tabcontent">
+
+        <div class="card-avatar">
+          <%= image_tag("batman.jpeg", size: "450x450", :alt => "rss feed", class: "card-avatar") %>
+        </div>
+
+        <div class="card-name">
+          <h3>DC comics super-hero</h3>
+          <a>Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger,[1][2] and first appeared in Detective Comics #27, in 1939. Originally named the "Bat-Man", the character is also referred to by such epithets as the Caped Crusader, the Dark Knight, and the World's Greatest Detective.[5]
+
+Batman's secret identity is Bruce Wayne, a wealthy American playboy, philanthropist, and owner of Wayne Enterprises. After witnessing the murder of his parents Dr. Thomas Wayne and Martha Wayne as a child, he swore vengeance against criminals, an oath tempered by a sense of justice. Bruce Wayne trains himself physically and intellectually and crafts a bat-inspired persona to fight crime.[6]
+</a>
+        </div>
+
+        <div class="card-button">
+          <button type="button" class="btn-blue">FollowMe</button>
+        </div>
+
+      </div>
+
+      <div id="cow" class="tabcontent">
+
+        <div class="card-avatar">
+          <%= image_tag("HQ.jpeg", size: "450x450", :alt => "rss feed", class: "card-avatar") %>
+        </div>
+
+        <div class="card-name">
+          <h3>DC comics super-vilain</h3>
+          <a>Harley Quinn (full name: Dr. Harleen Frances Quinzel) is a fictional character appearing in American comic books published by DC Comics. The character was created by Paul Dini and Bruce Timm, and first appeared in Batman: The Animated Series in September 1992. She later appeared in DC Comics's Batman comic books, with the character's first comic book appearance in The Batman Adventures #12 (September 1993).
+
+Harley Quinn is a frequent accomplice and lover of the Joker, whom she met while working as a psychiatrist at Gotham City's Arkham Asylum, where the Joker was a patient.[2] Her name is a play on the name "Harlequin", a character which originated in the commedia dell'arte. The character has teamed up with fellow villains Catwoman and Poison Ivy several times, the trio being known as the Gotham City Sirens. Since The New 52, she is now depicted as an antihero and has left her past as a supervillain behind. Harley Quinn has also been depicted as a member of the Suicide Squad.</a>
+        </div>
+
+        <div class="card-button">
+          <button type="button" class="btn-blue">Follow Me</button>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
