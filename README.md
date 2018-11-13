@@ -1,4 +1,4 @@
-# THP week 07 day 2 - CSS advanced
+# THP week 07 day 2 - CSS advanced exo
 
 ## Contenu :
 
@@ -13,4 +13,4 @@
 * Configuration
 
 ## Lien en PROD :
-https://git.heroku.com/heroku-scss.git
+https://scss-heroku-thp.herokuapp.com/
